@@ -1,0 +1,175 @@
+/* jisan_result */
+
+@charset: "utf-8";
+
+    /* reset.css */
+    html,body{width: 100%; height: 100%;}
+    html,body,h1,h2,h3,h4,h5,h6,p,pre,div,dd,
+    dt,dl,ol,li,ul,img{margin: 0;padding:0;border: 0; outline: 0;
+                       behavior:url('../ie/pie/PIE.htc');}
+    ul,ol,li{list-style: none;}
+    header,article,section,aside,nav,footer,
+    main,figure,figcaption{display: block;}
+
+    /* design.css */
+    /* 위드값을 그냥 꽉차게 넣으면 브라우저 상황에 따라 가로 스크롤이 생김 */
+    .wrap{width: 1900px; height: auto;min-height: 800px; background-color: #ccc; }
+
+
+
+/* #popupBox================== */
+#popupBox{display: none;
+          width: 100%; height: 90px; background-color: #777;}
+
+
+/* #headBox================== */
+#headBox{position: fixed; z-index: 700; top: 0; left: 0;
+         width: inherit; height: 86px;
+         padding: 14px 60px; box-sizing: border-box;
+         background-color: rgba(255,255,255,0.7);} 
+
+   h1{float: left;
+      width: 204px; height: 52px; 
+      background-color: #333;}
+
+
+/* #naviBox================== */
+#naviBox{float: right; width: 1420px; height: 60px;}
+
+  #naviBox>h2{position: absolute;z-index: -1;
+              width: 0; height: 0; overflow: hidden;}
+
+/* IR기법 (image replace):
+보여주고자 하는 이미지는 나타나고 그 해석이 되는 설명은 숨김처리하는 기법 */
+
+  .gnb{float: left; width: 864px; height: 52px; background-color: #aaa;}
+  .unb{float: right; width: 454px; height: 52px; background-color: #aaa;}
+
+/* 공통으로 적용된 화면에 꽉차는 박스 */
+.full_size{width: 100%; height:900px;
+            padding-top: 150px; box-sizing: border-box;}
+
+.guide_area>h2{width: 100%; height:100px; text-transform: uppercase;}
+
+      
+
+
+
+
+
+/* #viewBox================== */
+#viewBox{background-color:#555;}
+.guide_area_v{width: 694px; height: 520px;
+              margin: auto; text-align: center;
+              background-color: #777;
+              padding: 4px; padding-left:6px;
+              box-sizing: border-box;}
+.logo{float: top; width: 682px; height: 102px; 
+      background-color: #8c8c8c; margin-bottom: 2px;}
+.enjoy{float: top; width: 682px; height:352px; 
+      background-color: #8c8c8c; margin-bottom: 2px;}
+.today{float: top; width: 682px; height: 52px; 
+       background-color: #8c8c8c; margin-bottom: 2px;}
+
+
+/* #guideBox================== */
+#guideBox{background-color:#aaa;}
+.guide_area_g{width: 1142px; height: 566px;
+                       margin: auto; text-align: center;
+                       background-color: #777;}
+.season{width: 320px; height: 100px;
+        background-color: #8c8c8c; float: left;
+        margin-left: 400px; margin-top: 30px;
+        }
+.reserv{width: 540px; height: 372px;
+        background-color: #8c8c8c; float: left;
+        margin-top: 40px;margin-left: 22px;}
+.service{width: 540px; height: 372px;
+        background-color: #8c8c8c; float: left;
+        margin-top: 40px;margin-left: 22px;}
+.all_reserv{width: 276px; height: 64px; 
+            margin-top: 10px; margin-left: 0px;
+            padding: 50px; box-sizing: content-box;
+            padding-right: 132px; padding-left: 132px;
+            float:left; }
+.reserv_b{width: 276px; height: 64px; background-color: #b2b2b2;
+          margin-top: 20px;}
+.reserv>li{width: 112px; height: 44px;
+           background-color: #b2b2b2; float: left;
+           padding: 8px; box-sizing: border-box;
+           margin-left: 18px; /* margin-top: 250px;*/}
+.all_p{float: left; margin-left: 45px;
+            padding: 2px; box-sizing: border-box;}
+.free_p{float: left; margin-left: 45px;
+            padding: 2px; box-sizing: border-box;}
+.teach_p{float: left; margin-left: 45px;
+            padding: 2px; box-sizing: border-box;}
+.check_p{float: left; margin-left: 45px;
+            padding: 2px; box-sizing: border-box;}
+.serv_go{width: 292px; height: 80px; background-color: #b2b2b2;
+         margin-top: 250px; margin-left: 128px; float: left;} 
+                    
+
+/* #saleBox================== */
+#saleBox{background-color: #999;}
+.guide_area_s{width: 1102px; height: 588px;
+              margin: auto; text-align: center;
+              background-color: #777;
+              padding: 10px; box-sizing: border-box;}
+.card{width: 355px; height: 384px; background-color: #8c8c8c;
+      float: left; margin-left: 5px; margin-top: 30px;}
+.season_s{width: 355px; height: 384px; background-color: #8c8c8c;
+      float: left; margin-left: 5px; margin-top: 85px;}
+.keep{width: 355px; height: 384px; background-color: #8c8c8c;
+      float: left; margin-left: 5px; margin-top: 30px;}
+.sale_lift{width: 150px; height: 108px; background-color: #b2b2b2;
+           margin-top: 190px; margin-left: 100px;}
+.special{width: 374px; height: 100px; background-color: #8c8c8c;
+         margin-left: 350px;}    
+         
+
+/* #newsBox================== */
+#newsBox{ackground-color: #ddd;}
+.guide_area_n{width: 1102px; height: 460px;
+              margin: auto; text-align: center;
+              background-color: #777; padding: 5px;}
+.jisan_n{width: 344px; height: 76px; background-color: #b2b2b2;
+         margin-left: 350px;}
+.guide_area_n>ul{width: 1098px; height: 350px;
+            background-color:#8c8c8c; 
+            margin-top: 35px; margin-left: 2px;}
+.newsMenu>li{width: 218px; height: 350px;
+            background-color: #b2b2b2; float: left;
+            }
+.sketch,.webcam,.sns,.event{margin-left: 2px;}
+.botton_img{margin-top: 100px; width: 100%; height: 100px; text-align:center;
+  position:relative;}
+.botton{width: 124px; height: 34px; 
+        background-color: #fff; /*margin-top: 50px;*/ margin-left: 50px;}
+h2{text-align: center;}
+.botton_img img{width:100px; height:auto;}
+
+
+/* #jisnSideBox================== */
+#jisanSideBox{display: none;}
+
+
+/* #footBox===================== */
+#footBox{width: 100%; height: 230px; background-color: #131313;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
