@@ -1,0 +1,6 @@
+/* common.css */
+/* reset.css에서 charset을 써줬기 때문에 안써줘도됨 */
+
+.hidden {display: block; position: absolute;z-index: -1;
+        width: 0; height: 0; overflow: hidden;}
+.clearfix:after, .clearfix::after {content: " "; display: block;clear: both;}
