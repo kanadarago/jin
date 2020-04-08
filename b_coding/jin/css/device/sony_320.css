@@ -1,0 +1,43 @@
+/*sony_320.css*/
+
+/*design deta:320px*/
+@media screen and (max-width: 639px){
+
+#wrap {background-color: #245000;}
+
+
+/*headBox====================================================================*/
+#headBox {width:100%; height:46px; background-color: black;}
+
+
+
+/*viewBox====================================================================*/
+#viewBox {width:100%; height: 152px; background-color: white;}
+
+
+
+/*contentBox====================================================================*/
+#contentBox {width:100%; height: 152px; background-color: black;}
+
+
+
+/*infoBox====================================================================*/
+#infoBox {width:100%; height: 212px; background-color: white;}
+
+
+
+/*newsBox====================================================================*/
+#newsBox {width:100%; height: 346px; background-color: black;}
+
+
+
+/*notice====================================================================*/
+#notice {width:100%; height: 94px; background-color: white;}
+
+
+
+/*footBox====================================================================*/
+#footBox {width:100%; height: 150px; background-color: black;}
+
+
+}

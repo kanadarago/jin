@@ -1,0 +1,44 @@
+/*sony_1024.css*/
+
+/*design deta:1024px*/
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+
+#wrap {background-color: #955664;}
+
+
+/*headBox====================================================================*/
+#headBox {width: ; height: ; background-color: ;}
+
+
+
+/*viewBox====================================================================*/
+#viewBox {width: ; height: ; background-color: ;}
+
+
+
+/*contentBox====================================================================*/
+#contentBox {width: ; height: ; background-color: ;}
+
+
+
+/*infoBox====================================================================*/
+#infoBox {width: ; height: ; background-color: ;}
+
+
+
+/*newsBox====================================================================*/
+#newsBox {width: ; height: ; background-color: ;}
+
+
+
+/*notice====================================================================*/
+#notice {width: ; height: ; background-color: ;}
+
+
+
+/*footBox====================================================================*/
+#footBox {width: ; height: ; background-color: ;}
+
+
+
+}
