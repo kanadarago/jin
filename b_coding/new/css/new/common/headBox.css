@@ -1,0 +1,49 @@
+/* headBox.css */
+
+#headBox{
+	position: fixed; top: 0; left: 0;
+	z-index: 1000;
+	width: 1920px; height: 90px;
+	padding: 25px 90px; box-sizing: border-box;
+	/* background-color: #777; */
+	font-size: 28px; color: #fff;
+	text-transform: uppercase;
+}
+
+.gnbBox{
+	float: left;
+	width: 654px; height: 40px;
+}
+.gnbBox li{
+	float: left;
+	margin-left: 60px;
+	height: 70px;
+}
+.gnbBox li:nth-child(1){
+	width: 130px;
+	margin-left: 0;
+}
+.gnbBox li:nth-child(2){
+	width: 172px;
+}
+.gnbBox li:nth-child(3){
+	width: 222px;
+}
+.logoBox{
+	float: left;
+	width: 226px; height: 40px;
+	font-size: 50px; font-weight: 500;
+	margin-left: 130px; margin-top: -16px;
+	text-align: center;
+}
+.logoBox a{
+	width: 100%; height: 100%;
+}
+
+.unbBox{
+	float: right;
+	width: 406px; height: 40px;
+}
+.unbBox li{
+	float: left;	margin-left: 70px;
+}

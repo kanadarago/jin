@@ -1,0 +1,7 @@
+/* wrap.css */
+
+#wrap{
+	position: relative;
+	width: 1920px; height: auto;
+	min-height: 600px; background-color: #fac;
+}
