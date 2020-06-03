@@ -45,7 +45,7 @@
 	// });
 
 	console.log(n);
-	mwUl.stop().animate({marginLeft:n*-100+'%'},200,function(){
+	mwUl.stop().animate({marginLeft:n*-100+'%'},200,'easeInExpo',function(){
 		mouseOk = true;
 	})
 	});
