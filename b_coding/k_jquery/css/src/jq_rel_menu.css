@@ -1,0 +1,27 @@
+/* jq_rel_menu.css */
+
+#wrap{
+	width: 900px; height: auto; min-height: 500px;
+	margin: auto;
+	background-color: ivory;
+}
+
+.menu_box{
+	width: 900px; height: auto;
+	text-align: left; font-size: 1.2rem;
+}
+
+.menu_box li{
+	width: 900px; height: 60px;
+	margin-top: 1rem;
+}
+.menu_box li:first-child{
+	background-color: lavender;
+}
+.menu_box li:nth-child(odd){
+	background-color: lightpink;
+}
+.menu_box li:nth-child(even){
+	display: none;
+	background-color: lightsalmon;
+}
