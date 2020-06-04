@@ -30,19 +30,22 @@
 			<h2><span class="hidden">로그인 페이지</span></h2>
 			<form action="#" method="POST">
 				<fieldset class="user_input">
-					<legend>user <span>log in</span></legend>
+					<legend>User <span>Log in</span><span class="hidden">정보입력</span></legend>
 					<ul>
 						<li>
 							<label for="userId"><i></i>
 								<span class="hidden">이메일 형식의 아이디를 입력하세요.</span>
 							</label>
-							<input type="text" id="userId" name="userId" value="">
+							<input type="text" id="userId" name="userId" value=""
+							placeholder="Email Id" required="required">
 						</li>
 						<li>
 							<label for="userPw"><i></i>
 								<span class="hidden">사용자의 비밀번호를 입력하세요.</span>
 							</label>
-							<input type="password" id="userPw" name="userPw" value="">
+							<input type="password" id="userPw" name="userPw" value=""
+							placeholder="password" required="required">
+							<!--placeholder 는 보이는 부분 글자 넣어주는 것 required 넣어주면 필수입력됨  -->
 						</li>
 					</ul>
 				</fieldset>
