@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'gt';
+    src: local('GyeonggiTitle Light'), local('GyeonggiTitleL'),
+        url('hinted-GyeonggiTitleL.woff2') format('woff2'),
+        url('hinted-GyeonggiTitleL.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gtV';
+    src: local('GyeonggiTitleV Bold'), local('GyeonggiTitleV'),
+        url('hinted-GyeonggiTitleV.woff2') format('woff2'),
+        url('hinted-GyeonggiTitleV.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt';
+    src: local('GyeonggiTitle Bold'), local('GyeonggiTitleB'),
+        url('hinted-GyeonggiTitleB.woff2') format('woff2'),
+        url('hinted-GyeonggiTitleB.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gt';
+    src: local('GyeonggiTitle Medium'), local('GyeonggiTitleM'),
+        url('hinted-GyeonggiTitleM.woff2') format('woff2'),
+        url('hinted-GyeonggiTitleM.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
