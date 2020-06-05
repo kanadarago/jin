@@ -17,3 +17,8 @@ fieldset{
 	margin-bottom: 25px;
 	background-color: #fff;
 }
+.test:before{
+	content: "\f023";
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+}
