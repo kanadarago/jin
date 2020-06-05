@@ -17,10 +17,6 @@ h1{
 fieldset{
 	width: 100%; height:auto; 
 	margin-bottom:25px;
-	/* ----------------------------임시 */
-	min-height:10px;
-	background-color: #fff;
-	/* ----------------------------임시 */
 }
 
 /* display none을 하면 존재자체를 없애버리기 때문에 체크는되지만 인식이 안될 수 있음. 
@@ -40,15 +36,15 @@ input[type="checkBox"]:focus+.check_area>label{
 /* a + .check 라고 쓰면 a의 형제인 클래스 check를 뜻한다  */
 /* 안에 있는은 띄워서 쓰고 자식은 > 로 형제는 +로  */
 .check_area {
-	width: 100%; height:auto; min-width: 28px;
+	width: 100%; height:auto; min-width: 26px;
 	font-size: 1rem; color:#333; font-weight: bold;
 	word-break:keep-all;
-	margin-bottom: 26px;
 }
 /* word-break: keep-all;은 단어위주로 줄바꿈 */
 .check_area label{
 	position: relative;
-	width: 100%; height:auto;
+	display: block;
+	width: 100%; height:auto; min-height: 28px;
 	padding-left:1.875rem;
 	box-sizing: border-box;
 }	
@@ -76,7 +72,7 @@ input[type="checkbox"]:focus +
 	outline:2px dotted #00c850;
 }
 
-input[type="checkbox"]:checked + 
+input[type="checkbox"].check + 
 .check_area > label:before{ color:#f07;}
 
 /*
@@ -87,3 +83,20 @@ input[type="checkbox"]:checked +
 
 .require_check .check_area strong{font-weight: normal; font-size: 0.8rem; color: #00c850;}
 .option_check .check_area strong{font-weight: normal; font-size: 0.8rem; color: #8e8e8e;}
+
+/* ------------------------------------------------------------------- */
+.terms{
+	width: 100%; height: 90px;
+	overflow: auto;
+	overflow-x: hidden;
+	padding: 12px;
+	box-sizing: inherit;
+	border: 1px solid #dadada;
+	background-color: #fff;
+	margin-top: 10px;
+	margin-bottom: 26px;
+}
+.terms dt{
+	font-size: 1rem;
+	font-weight: bold;
+}
