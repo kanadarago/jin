@@ -1,0 +1,14 @@
+.naver_check dd{
+	width: 462px; height: 90px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+.user_check dd{
+	width: 462px; height: 90px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 12px;
+}
