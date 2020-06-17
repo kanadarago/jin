@@ -1,0 +1,54 @@
+// _variable.scss
+
+$primary : #f07;
+$sub1    : #acf;
+$sub2    : #ccf;
+$white   : #fff;
+$black   : #333;
+
+$baseLine : 1px solid $black;
+
+
+// map 만들기 --------------------------------------------
+$color : #adf;
+$colorList : (#acf,#fca,#aaf,#faa,#f08);
+$colorMap : (blue:#0cf, yellow:#fa0 , red : #a00);
+
+$baseColor : (yellow:#ff0,gray:#aaa);
+$natureColor : (yellow:#fc0,gray:#ccc);
+$fontColor : (yellow:#a70,gray:#777,
+              black : map-get($natureColor,black));
+$sampleColor : (yellow: map-get($fontColor,yellow),
+								gray:map-get($natureColor,gray));
+// 위처럼 맵겟으로 가져와서 맵겟으로 쓰는것도 되지만 가끔 알수 없는 오류가 난다고 함
+// -------------------------------------------------------
+$url:"../../../img/base/";
+
+// font 설정
+// font-family
+$fontLink : 'http://font.google.com/font.woff';
+$english : 'myriaf pro','din','arial';
+$korean : 'malgun gothic','noto sans',dotum;
+$otherFont : sans-serif;
+$fontFamily : $english,$korean;
+
+// font-size
+$h1 : 3rem;
+$h2 : 2.5rem;
+$h3 : 2.2rem;
+$h4 : 2rem;
+$h5 : 1.5rem;
+$h6 : 1.2rem;
+$p : $h6;
+
+// -------------------------------------------------------
+// background,shadow
+$gr_01 : linear-gradient(45deg,nth($colorList,5),nth($colorList,3));
+$shadow : 1rem 1rem 1rem $black;
+$radius_01 : 0.5rem;
+
+#gnb{
+	font-family: $fontFamily 
+}
+
+// $h1
