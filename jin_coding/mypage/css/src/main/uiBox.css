@@ -1,0 +1,70 @@
+/* uiBox */
+
+.box_size{
+	width: 1900px;
+	height: 1021px;
+	padding-top: 98px; box-sizing: border-box;
+}
+#uiBox{
+	background-color: #cc9;
+}
+.top{
+	position: fixed; bottom: 24px; right: 82px;
+	width: 90px;
+	height: 90px;
+	background-color: #333;
+}
+.mid_box{
+	width: 1398px;
+	height: 824px;
+	margin: auto;
+	background-color: #fcc;
+}
+.slide_box{
+	/* position: fixed; top: 97px; left: 251px; */
+	position: absolute; top: 1121px; left: 251px;
+	/* position: absolute; top: 3163px; left: 251px; */
+	width: 721px;
+	height: 824px;
+	background-color: #acc;
+}
+/* .slide_design{} */
+/* .slide_bg{} */
+.txt_box{
+	float: right;
+	width: 492px;
+	height: 824px;
+	padding-top: 31px; box-sizing: border-box;
+	background-color: #acc;
+}
+.box_title{
+	width: 176px;
+	height: 43px;
+	margin-bottom: 64px;
+	background-color: #f0c;
+	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
+	text-align: center;
+}
+.upper{
+	text-transform: uppercase;
+}
+.cap{
+	text-transform: capitalize;
+}
+.box_txt{
+	width: 411px;
+	height: 529px;
+	margin-bottom: 80px;
+	background-color: #a8c;
+}
+.box_btn{
+	width: 93px;
+	height: 48px;
+	background-color: #f8f;
+	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
+	text-align: center;
+}
+a{
+	display: block;
+	width: 100%; height: 100%;
+}

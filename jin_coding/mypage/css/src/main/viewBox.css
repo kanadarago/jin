@@ -1,0 +1,55 @@
+/* viewBox.css */
+
+#viewBox{
+	width: 1900px;
+	height: 968px;
+	padding-top: 194px; box-sizing: border-box;
+	margin-bottom: 55px;
+	background-color: #f89;
+}
+.main_box{
+	width: 766px;
+	height: 579px;
+	padding-top: 200px; box-sizing: border-box;
+	margin: auto;
+	background-color: #a59;
+}
+.main_title_box{
+	width: 766px;
+	height: 281px;
+	background-color: #c79;
+}
+.main_title{
+	position: relative;
+	width: 246px;
+	height: 177px;
+	margin: auto; margin-bottom: 43px;
+	background-color: #f80;;
+}
+.port_box{
+	position: absolute; top: -4px; left: 0;
+	width: 100%; height: 64px;
+	font-family: 'OTEnjoystoriesBA';
+	font-size: 70px; text-align: center;
+	text-transform: capitalize;
+	
+}
+.jin_box{
+	position: absolute; top: 46px; left: 0;
+	width: 100%; height: 113px;
+	font-family: 'OTEnjoystoriesBA';
+	font-size: 120px; text-align: center;
+	text-transform: capitalize;
+}
+.main_about{
+	width: 142px;
+	height: 61px;
+	margin: auto;
+	background-color: #e19;
+}
+.main_about button{
+	display: block;
+	width: 100%; height: 100%;
+	font-family: 'OTEnjoystoriesBA';
+	font-size: 40px; text-transform: capitalize;
+}

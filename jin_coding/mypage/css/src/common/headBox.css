@@ -1,0 +1,28 @@
+#headBox{
+	position: fixed;
+	width: 80px; height: 970px;
+	padding-top: 11px; box-sizing: border-box;
+}
+.fixed_text{
+	position: fixed; top: 0; right: 0;
+	width: 140px; height: 50px;
+	background-color: #fff;
+}
+.logo_box{
+	width: 62px;
+	height: 108px;
+	margin: auto; margin-bottom: 314px;
+	background-color: #c4a;
+}
+.menu_box{
+	width: 62px;
+	height: 109px;
+	margin: auto; margin-bottom: 213px;
+	background-color: #c4a;
+}
+.mail_box{
+	width: 62px;
+	height: 204px;
+	margin: auto;
+	background-color: #c4a;
+}

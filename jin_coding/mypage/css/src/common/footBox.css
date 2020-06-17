@@ -1,0 +1,38 @@
+/* footBox */
+
+#footBox{
+	width: 1900px;
+	height: 682px;
+	padding-top: 103px; box-sizing: border-box;
+	background-color: #a80;
+}
+.foot_box{
+	width: 1335px;
+	height: 407px; margin: auto;
+}
+.foot_title{
+	width: 1335px;
+	height: 49px;
+	margin-bottom: 84px;
+	background-color: blueviolet;
+}
+.foot_info{
+	width: 1335px;
+	height: 117px;
+	margin-bottom: 96px;
+}
+.foot_info li{
+	float: left;
+	width: 306px;
+	height: 117px;
+	margin-left: 36px;
+	background-color: chartreuse;
+}
+.foot_info li:first-child{
+	margin-left: 0;
+}
+.foot_btn{
+	width: 1335px;
+	height: 62px;
+	background-color: blueviolet;
+}
