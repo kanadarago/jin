@@ -1,10 +1,10 @@
 /* footBox */
 
 #footBox{
+	position: relative;
 	width: 1900px;
 	height: 682px;
 	padding-top: 103px; box-sizing: border-box;
-	background-color: #a80;
 }
 .foot_box{
 	width: 1335px;
@@ -15,6 +15,8 @@
 	height: 49px;
 	margin-bottom: 84px;
 	background-color: blueviolet;
+	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
+	text-align: left; text-transform: uppercase;
 }
 .foot_info{
 	width: 1335px;

@@ -5,8 +5,161 @@
 	height: 968px;
 	padding-top: 194px; box-sizing: border-box;
 	margin-bottom: 55px;
-	background-color: #f89;
 }
+.deco_box{
+	position: fixed; top: 0; left: 0; z-index: 0;
+}
+.deco_left{
+	position: relative; top: 0; left: 0;
+	float: left;
+	width: 950px; height: 100%;
+}
+.deco_right{
+	position: relative; top: 0; right: 0;
+	float: right;
+	width: 950px; height: 100%;
+}
+.deco_left .deco_01{
+	position: absolute;
+	top: 6px; left: 186px;
+	width: 100px; height: 100px;
+	background-image: url(./../../../img/source/circle_0.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_02{
+	position: absolute; top: 174px; left: 324px;
+	width: 26px; height: 26px;
+	background-image: url(./../../../img/source/small_circle_1.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_03{
+	position: absolute; top: 252px; left: 80px;
+	width: 56px; height: 56px;
+	background-image: url(./../../../img/source/circle_deco.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_04{
+	position: absolute; top: 356px; left: 348px;
+	width: 68px; height: 68px;
+	background-image: url(./../../../img/source/Polygon_2.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_05{
+	position: absolute; top: 410px; left: 178px;
+	width: 80px; height: 88px;
+	background-image: url(./../../../img/source/Polygon_1.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_06{
+	position: absolute; top: 622px; left: 202px;
+	width: 26px; height: 26px;
+	background-image: url(./../../../img/source/small_circle_0.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_07{
+	position: absolute; top: 714px; left: 350px;
+	width: 26px; height: 26px;
+	background-image: url(./../../../img/source/small_circle_0.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_08{
+	position: absolute;
+	top: 734px; left: 1px;
+	width: 100px; height: 100px;
+	background-image: url(./../../../img/source/circle_1.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_left .deco_09{
+	position: absolute; top: 830px; left: 216px;
+	width: 56px; height: 56px;
+	background-image: url(./../../../img/source/circle_deco.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
+
+
+.deco_right .deco_01{
+	position: absolute;
+	top: 74px; right: 294px;
+	width: 56px; height: 56px;
+	background-image: url(./../../../img/source/circle_deco.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_02{
+	position: absolute; top: 124px; right: 158px;
+	width: 26px; height: 26px;
+	background-image: url(./../../../img/source/small_circle_0.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_03{
+	position: absolute; top: 250px; right: 2px;
+	width: 100px; height: 100px;
+	background-image: url(./../../../img/source/circle_1.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_04{
+	position: absolute; top: 328px; right: 254px;
+	width: 70px; height: 66px;
+	background-image: url(./../../../img/source/Polygon_0.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_05{
+	position: absolute; top: 458px; right: 84px;
+	width: 26px; height: 26px;
+	background-image: url(./../../../img/source/small_circle_0.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_06{
+	position: absolute; top: 506px; right: 370px;
+	width: 56px; height: 56px;
+	background-image: url(./../../../img/source/circle_deco.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_07{
+	position: absolute; top: 506px; right: 180px;
+	width: 70px; height: 54px;
+	background-image: url(./../../../img/source/Polygon_3.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_08{
+	position: absolute;
+	top: 630px; right: 54px;
+	width: 56px; height: 56px;
+	background-image: url(./../../../img/source/circle_deco.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_09{
+	position: absolute; top: 674px; right: 302px;
+	width: 26px; height: 26px;
+	background-image: url(./../../../img/source/small_circle_1.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.deco_right .deco_10{
+	position: absolute; top: 788px; right: 226px;
+	width: 100px; height: 100px;
+	background-image: url(./../../../img/source/circle_0.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
 .main_box{
 	width: 766px;
 	height: 579px;

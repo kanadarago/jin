@@ -1,15 +1,19 @@
 /* artBox.css */
 
 #artBox{
+	position: relative;
 	width: 1900px;
 	height: 1021px;
 	padding-top: 111px; box-sizing: border-box;
 }
 .art_title{
+	padding-top: 10px; box-sizing: border-box;
 	width: 1293px;
 	height: 63px;
 	margin: auto; margin-bottom: 54px;
 	background-color: #fff;
+	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
+	text-align: center; text-transform: uppercase;
 }
 .art_pic_box{
 	width: 1294px;

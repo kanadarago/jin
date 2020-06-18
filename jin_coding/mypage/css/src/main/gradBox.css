@@ -1,13 +1,13 @@
 /* gradBox */
 
-#gradBox{
+/* #gradBox{
 	background-color: #f90;
-}
+} */
 .mid_box_02{
+	position: relative;
 	width: 1398px;
 	height: 824px;
 	margin: auto;
-	background-color: #a3a;
 }
 .slide_box_02{
 	float: right;
@@ -23,13 +23,14 @@
 	height: 824px;
 	padding-top: 31px; padding-left: 80px;
 	box-sizing: border-box;
-	background-color: #acc;
 }
 .box_title_02{
 	width: 176px;
 	height: 43px;
 	margin-bottom: 64px;
 	background-color: #f0c;
+	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
+	text-align: center;
 }
 .box_txt_02{
 	width: 411px;

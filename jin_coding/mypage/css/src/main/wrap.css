@@ -2,5 +2,5 @@
 
 #wrap{
 	width: 1900px; height: auto; min-height: 1000px;
-	background-color: #fab;
+	background-image: url(../../../img/source/wrap_bg.png);
 }

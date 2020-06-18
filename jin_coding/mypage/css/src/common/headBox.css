@@ -1,5 +1,5 @@
 #headBox{
-	position: fixed;
+	position: fixed; z-index: 100;
 	width: 80px; height: 970px;
 	padding-top: 11px; box-sizing: border-box;
 }
