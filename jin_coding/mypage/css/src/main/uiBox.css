@@ -2,18 +2,36 @@
 
 .box_size{
 	width: 1900px;
-	height: 1021px;
-	padding-top: 98px; box-sizing: border-box;
+	height: 968px;
+	padding-top: 40px; box-sizing: border-box;
 }
 /* #uiBox{
 	background-color: #cc9;
 } */
 .top{
 	position: fixed; bottom: 24px; right: 82px;
-	width: 90px;
-	height: 90px;
-	background-color: #333;
+	width: 78px;
+	height: 114px;
 }
+.top a{
+	display: block; position: relative;
+	width: 100%; height: 100%;
+	background-image: url(../../../img/source/top_btn.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.top_ani{
+	position:absolute; top: 62px; 
+	/* top: 56px; 올려다보는 눈위치 */
+	width: 100%; height: 16px;
+	background-image: url(../../../img/source/top_btn_ani.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.top a:hover .top_ani{
+	animation: top 0.5s forwards linear;
+}
+@keyframes top {0%{top:62px;} 100%{top:57px;}}
 .mid_box{
 	width: 1398px;
 	height: 824px;
@@ -21,15 +39,25 @@
 }
 .slide_box{
 	/* position: fixed; top: 97px; left: 251px; */
-	position: absolute; top: 1121px; left: 251px;
+	position: absolute; top: 1193px; left: 251px;
 	/* position: absolute; top: 3163px; left: 251px; */
 	width: 721px;
 	height: 824px;
-	background-color: #acc;
-	overflow: hidden;
+}
+.slide_line{
+	position: absolute; top: -20px; left: -30px;
+	width: 770px; height: 876px;
+	background-image: url(../../../img/source/box_line.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.slide_area{
+	width: 721px; height: 100%;
+	/* overflow: hidden; */
 }
 .slide_bg{
-	width: 3000px; height: 100%;
+	width: 2000px; height: 100%;
+	/* margin-left: -100px; */
 	background-image: linear-gradient(90deg,#F7CAC9,#92A8D1);
 }
 /* .slide_design{} */
@@ -40,11 +68,13 @@
 	height: 824px;
 	padding-top: 31px; box-sizing: border-box;
 }
-.box_title{
+#uiBox .box_title{
 	width: 176px;
 	height: 43px;
 	margin-bottom: 64px;
-	background-color: #f0c;
+	background-image: url(../../../img/source/ui_title_bg.png);
+	background-repeat: no-repeat;
+	background-position: -4px 28px;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
 	text-align: center;
 }
@@ -58,7 +88,8 @@
 	width: 411px;
 	height: 529px;
 	margin-bottom: 80px;
-	background-color: #a8c;
+	font-family: 'ON-IGothic';
+	font-size: 18px;
 }
 .box_btn{
 	width: 93px;

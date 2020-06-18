@@ -14,3 +14,5 @@
 @import url('./common/footBox.css');
 
 @font-face { font-family: 'OTEnjoystoriesBA'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'ON-IGothic'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eleven@1.0/ON-IGothic.woff') format('woff'); font-weight: normal; font-style: normal; }

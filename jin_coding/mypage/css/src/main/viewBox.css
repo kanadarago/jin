@@ -4,7 +4,7 @@
 	width: 1900px;
 	height: 968px;
 	padding-top: 194px; box-sizing: border-box;
-	margin-bottom: 55px;
+	margin-bottom: 130px;
 }
 .deco_box{
 	position: fixed; top: 0; left: 0; z-index: 0;
@@ -26,6 +26,7 @@
 	background-image: url(./../../../img/source/circle_0.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 38s infinite alternate;
 }
 .deco_left .deco_02{
 	position: absolute; top: 174px; left: 324px;
@@ -33,6 +34,7 @@
 	background-image: url(./../../../img/source/small_circle_1.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 18s infinite alternate;
 }
 .deco_left .deco_03{
 	position: absolute; top: 252px; left: 80px;
@@ -40,6 +42,7 @@
 	background-image: url(./../../../img/source/circle_deco.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 8s infinite alternate;
 }
 .deco_left .deco_04{
 	position: absolute; top: 356px; left: 348px;
@@ -47,6 +50,7 @@
 	background-image: url(./../../../img/source/Polygon_2.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 22s infinite alternate;
 }
 .deco_left .deco_05{
 	position: absolute; top: 410px; left: 178px;
@@ -54,6 +58,7 @@
 	background-image: url(./../../../img/source/Polygon_1.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 32s infinite alternate;
 }
 .deco_left .deco_06{
 	position: absolute; top: 622px; left: 202px;
@@ -61,6 +66,7 @@
 	background-image: url(./../../../img/source/small_circle_0.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 12s infinite alternate;
 }
 .deco_left .deco_07{
 	position: absolute; top: 714px; left: 350px;
@@ -68,6 +74,7 @@
 	background-image: url(./../../../img/source/small_circle_0.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 25s infinite alternate;
 }
 .deco_left .deco_08{
 	position: absolute;
@@ -76,6 +83,7 @@
 	background-image: url(./../../../img/source/circle_1.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 15s infinite alternate;
 }
 .deco_left .deco_09{
 	position: absolute; top: 830px; left: 216px;
@@ -83,9 +91,13 @@
 	background-image: url(./../../../img/source/circle_deco.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation:icon 8s infinite alternate;
 }
 
-
+@keyframes icon {	
+	0% {transform:rotate(0) translateY(0) translateX(0);}	
+	100% {transform:rotate(180deg) translateY(4rem) translateX(-5rem);}
+}
 
 .deco_right .deco_01{
 	position: absolute;
@@ -94,6 +106,7 @@
 	background-image: url(./../../../img/source/circle_deco.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 8s infinite alternate;
 }
 .deco_right .deco_02{
 	position: absolute; top: 124px; right: 158px;
@@ -101,6 +114,7 @@
 	background-image: url(./../../../img/source/small_circle_0.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 23s infinite alternate;
 }
 .deco_right .deco_03{
 	position: absolute; top: 250px; right: 2px;
@@ -108,6 +122,7 @@
 	background-image: url(./../../../img/source/circle_1.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 28s infinite alternate;
 }
 .deco_right .deco_04{
 	position: absolute; top: 328px; right: 254px;
@@ -115,6 +130,7 @@
 	background-image: url(./../../../img/source/Polygon_0.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 25s infinite alternate;
 }
 .deco_right .deco_05{
 	position: absolute; top: 458px; right: 84px;
@@ -122,6 +138,7 @@
 	background-image: url(./../../../img/source/small_circle_0.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 14s infinite alternate;
 }
 .deco_right .deco_06{
 	position: absolute; top: 506px; right: 370px;
@@ -129,6 +146,7 @@
 	background-image: url(./../../../img/source/circle_deco.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 15s infinite alternate;
 }
 .deco_right .deco_07{
 	position: absolute; top: 506px; right: 180px;
@@ -136,6 +154,7 @@
 	background-image: url(./../../../img/source/Polygon_3.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 20s infinite alternate;
 }
 .deco_right .deco_08{
 	position: absolute;
@@ -144,6 +163,7 @@
 	background-image: url(./../../../img/source/circle_deco.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 16s infinite alternate;
 }
 .deco_right .deco_09{
 	position: absolute; top: 674px; right: 302px;
@@ -151,6 +171,7 @@
 	background-image: url(./../../../img/source/small_circle_1.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 26s infinite alternate;
 }
 .deco_right .deco_10{
 	position: absolute; top: 788px; right: 226px;
@@ -158,26 +179,40 @@
 	background-image: url(./../../../img/source/circle_0.png);
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
+	animation: icon2 38s infinite alternate;
+}
+
+@keyframes icon2 {	
+	0% {transform:rotate(0) translateY(0) translateX(0);}	
+	100% {transform:rotate(180deg) translateY(4rem) translateX(-5rem);}
 }
 
 .main_box{
+	position: relative;
 	width: 766px;
 	height: 579px;
 	padding-top: 200px; box-sizing: border-box;
 	margin: auto;
-	background-color: #a59;
+	background-image: url(../../../img/source/view_main.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.main_name{
+	position: absolute; bottom: 8px; left: 70px;
+	width: 214px; height: 36px;
+	font-family: 'OTEnjoystoriesBA';
+	font-size: 30px; text-align: center;
+	text-transform: capitalize; color: #777777;
 }
 .main_title_box{
 	width: 766px;
 	height: 281px;
-	background-color: #c79;
 }
 .main_title{
 	position: relative;
 	width: 246px;
 	height: 177px;
 	margin: auto; margin-bottom: 43px;
-	background-color: #f80;;
 }
 .port_box{
 	position: absolute; top: -4px; left: 0;
@@ -198,11 +233,13 @@
 	width: 142px;
 	height: 61px;
 	margin: auto;
-	background-color: #e19;
+	background-image: url(../../../img/source/view_btn.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 .main_about button{
 	display: block;
 	width: 100%; height: 100%;
 	font-family: 'OTEnjoystoriesBA';
-	font-size: 40px; text-transform: capitalize;
+	font-size: 34px; text-transform: capitalize;
 }

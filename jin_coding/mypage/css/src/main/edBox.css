@@ -5,3 +5,14 @@
 	height: 1021px;
 	/* background-color: #cf0; */
 }
+
+#edBox .box_title{
+	width: 176px;
+	height: 43px;
+	margin-bottom: 64px;
+	background-image: url(../../../img/source/ed_title_bg.png);
+	background-repeat: no-repeat;
+	background-position: -4px 28px;
+	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
+	text-align: center;
+}

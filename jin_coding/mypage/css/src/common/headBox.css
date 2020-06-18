@@ -12,13 +12,17 @@
 	width: 62px;
 	height: 108px;
 	margin: auto; margin-bottom: 314px;
-	background-color: #c4a;
+	background-image: url(../../../img/source/logo.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 .menu_box{
 	width: 62px;
 	height: 109px;
 	margin: auto; margin-bottom: 213px;
-	background-color: #c4a;
+	background-image: url(../../../img/source/menu_icon.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 .mail_box{
 	width: 62px;

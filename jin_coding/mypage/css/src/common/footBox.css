@@ -14,7 +14,6 @@
 	width: 1335px;
 	height: 49px;
 	margin-bottom: 84px;
-	background-color: blueviolet;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
 	text-align: left; text-transform: uppercase;
 }
@@ -34,7 +33,11 @@
 	margin-left: 0;
 }
 .foot_btn{
-	width: 1335px;
-	height: 62px;
-	background-color: blueviolet;
+	float: right;
+	width: 146px; height: 46px;
+	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
+	text-align: right; text-transform: capitalize;
+}
+.foot_btn a{
+padding-right: 16px; box-sizing: border-box;
 }

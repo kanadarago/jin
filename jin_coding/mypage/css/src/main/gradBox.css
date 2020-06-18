@@ -28,7 +28,9 @@
 	width: 176px;
 	height: 43px;
 	margin-bottom: 64px;
-	background-color: #f0c;
+	background-image: url(../../../img/source/grad_title_bg.png);
+	background-repeat: no-repeat;
+	background-position: -4px 28px;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
 	text-align: center;
 }
@@ -36,7 +38,8 @@
 	width: 411px;
 	height: 529px;
 	margin-bottom: 80px;
-	background-color: #a8c;
+	font-family: 'ON-IGothic';
+	font-size: 18px;
 }
 .box_btn_02{
 	width: 93px;
