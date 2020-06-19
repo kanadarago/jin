@@ -8,6 +8,36 @@
 /* #uiBox{
 	background-color: #cc9;
 } */
+
+.ui_deco_01{
+	position: absolute; right: 552px; top: 1126px;
+	width: 210px; height: 80px;
+	background-image: url(../../../img/source/uiBox_deco_01.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.ui_deco_02{
+	position: absolute; right: 112px; top: 1350px;
+	width: 140px; height: 80px;
+	background-image: url(../../../img/source/uiBox_deco_02.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.ui_deco_03{
+	position: absolute; right: 300px; top: 1816px;
+	width: 268px; height: 70px;
+	background-image: url(../../../img/source/uiBox_deco_03.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.ui_deco_04{
+	position: absolute; left: 188px; top: 1920px;
+	width: 214px; height: 134px;
+	background-image: url(../../../img/source/uiBox_deco_04.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
 .top{
 	position: fixed; bottom: 24px; right: 82px;
 	width: 78px;
@@ -44,6 +74,10 @@
 	width: 721px;
 	height: 824px;
 }
+.slide_a{
+	display: none;
+	width: 100%; height: 100%;
+}
 .slide_line{
 	position: absolute; top: -20px; left: -30px;
 	width: 770px; height: 876px;
@@ -53,14 +87,19 @@
 }
 .slide_area{
 	width: 721px; height: 100%;
-	/* overflow: hidden; */
+	overflow: hidden;
 }
 .slide_bg{
-	width: 2000px; height: 100%;
+	width: 3000px; height: 100%;
 	/* margin-left: -100px; */
 	background-image: linear-gradient(90deg,#F7CAC9,#92A8D1);
 }
-/* .slide_design{} */
+.slide_design{
+	width: 100%; height: 100%;
+	background-image: url(../../../img/exam.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
 .txt_box{
 	position: relative;
 	float: right; z-index: 100;
@@ -94,11 +133,19 @@
 .box_btn{
 	width: 93px;
 	height: 48px;
-	background-color: #f8f;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
 	text-align: center;
 }
 a{
 	display: block;
 	width: 100%; height: 100%;
+}
+.box_btn:hover{
+	background-image: url(../../../img/source/more_hover.png);
+	background-repeat: no-repeat;
+	animation: more 0.2s linear;
+}
+@keyframes more {	
+	0% {background-position: -80px 0;}	
+	100% {background-position: 0 0;}
 }

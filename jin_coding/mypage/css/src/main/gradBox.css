@@ -13,10 +13,33 @@
 	float: right;
 	width: 721px;
 	height: 824px;
-	background-color: #a94;
 }
-/* .slide_design_02{}
-.slide_bg_02{} */
+.slide_a_02{
+	display: none;
+	width: 100%; height: 100%;
+}
+.slide_line_02{
+	position: absolute; top: -20px; right: -20px;
+	width: 770px; height: 876px;
+	background-image: url(../../../img/source/box_line.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.slide_area_02{
+	width: 721px; height: 100%;
+	overflow: hidden;
+}
+.slide_bg_02{
+	width: 3000px; height: 100%;
+	/* margin-left: -100px; */
+	background-image: linear-gradient(90deg,#F7CAC9,#92A8D1);
+}
+.slide_design_02{
+	width: 100%; height: 100%;
+	background-image: url(../../../img/exam.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
 .txt_box_02{
 	float: left;
 	width: 492px;

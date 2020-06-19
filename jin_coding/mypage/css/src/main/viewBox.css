@@ -223,11 +223,13 @@
 	
 }
 .jin_box{
-	position: absolute; top: 46px; left: 0;
-	width: 100%; height: 113px;
-	font-family: 'OTEnjoystoriesBA';
-	font-size: 120px; text-align: center;
-	text-transform: capitalize;
+	position: absolute; top: 46px; left: 20px;
+	width: 200px; height: 177px;
+	overflow: hidden;
+}
+.jin_img_box{
+	position: relative;
+	width: 100%; height: 100%;
 }
 .main_about{
 	width: 142px;
