@@ -130,4 +130,88 @@ SetI();
 // 	}
 // });
 
+// 배경 데코 글자 나타나게 하기 ---------------
+
+var uiDeco1 =$('.ui_deco_01');
+var uiDeco2 =$('.ui_deco_02');
+var uiDeco3 =$('.ui_deco_03');
+var uiDeco4 =$('.ui_deco_04');
+
+var edDeco01 = $('.ed_deco_01');
+var edDeco02 = $('.ed_deco_02');
+
+var webDeco01 = $('.web_deco_01');
+var webDeco02 = $('.web_deco_02');
+var webDeco03 = $('.web_deco_03');
+
+win.on('scroll',function(e){
+	var thisTop = $(this).scrollTop();
+	if(thisTop < 600){
+		uiDeco1.fadeOut();
+	}else if(thisTop > 800){
+		uiDeco1.fadeOut();
+	}else{
+		uiDeco1.fadeIn();
+	};
+
+	if(thisTop < 1100){
+		uiDeco2.fadeOut();
+		uiDeco4.fadeOut();
+	}else if(thisTop > 1300){
+		uiDeco2.fadeOut();
+		uiDeco4.fadeOut();
+	}else{
+		uiDeco2.fadeIn();
+		uiDeco4.fadeIn();
+	};
+	
+	if(thisTop < 1300){
+		uiDeco3.fadeOut();
+	}else if(thisTop > 1500){
+		uiDeco3.fadeOut();
+	}else{
+		uiDeco3.fadeIn();
+	};
+
+	if(thisTop < 2000){
+		edDeco01.fadeOut();
+	}else if(thisTop > 2200){
+		edDeco01.fadeOut();
+	}else{
+		edDeco01.fadeIn();
+	};
+
+	if(thisTop < 2100){
+		edDeco02.fadeOut();
+	}else if(thisTop > 2300){
+		edDeco02.fadeOut();
+	}else{
+		edDeco02.fadeIn();
+	};
+
+	if(thisTop < 3000){
+		webDeco01.fadeOut();
+	}else if(thisTop > 3200){
+		webDeco01.fadeOut();
+	}else{
+		webDeco01.fadeIn();
+	};
+
+	if(thisTop < 3300){
+		webDeco02.fadeOut();
+	}else if(thisTop > 3500){
+		webDeco02.fadeOut();
+	}else{
+		webDeco02.fadeIn();
+	};
+
+	if(thisTop < 3500){
+		webDeco03.fadeOut();
+	}else if(thisTop > 3700){
+		webDeco03.fadeOut();
+	}else{
+		webDeco03.fadeIn();
+	};
+});
+
 })(jQuery);

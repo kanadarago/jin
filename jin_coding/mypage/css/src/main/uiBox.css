@@ -10,6 +10,7 @@
 } */
 
 .ui_deco_01{
+	display: none;
 	position: absolute; right: 552px; top: 1126px;
 	width: 210px; height: 80px;
 	background-image: url(../../../img/source/uiBox_deco_01.png);
@@ -17,6 +18,7 @@
 	background-repeat: no-repeat;
 }
 .ui_deco_02{
+	display: none;
 	position: absolute; right: 112px; top: 1350px;
 	width: 140px; height: 80px;
 	background-image: url(../../../img/source/uiBox_deco_02.png);
@@ -24,6 +26,7 @@
 	background-repeat: no-repeat;
 }
 .ui_deco_03{
+	display: none;
 	position: absolute; right: 300px; top: 1816px;
 	width: 268px; height: 70px;
 	background-image: url(../../../img/source/uiBox_deco_03.png);
@@ -31,6 +34,7 @@
 	background-repeat: no-repeat;
 }
 .ui_deco_04{
+	display: none;
 	position: absolute; left: 188px; top: 1920px;
 	width: 214px; height: 134px;
 	background-image: url(../../../img/source/uiBox_deco_04.png);
@@ -69,7 +73,7 @@
 }
 .slide_box{
 	/* position: fixed; top: 97px; left: 251px; */
-	position: absolute; top: 1193px; left: 251px;
+	position: absolute; top: 1193px; left: 251px; z-index: 100;
 	/* position: absolute; top: 3163px; left: 251px; */
 	width: 721px;
 	height: 824px;
@@ -128,7 +132,7 @@
 	height: 529px;
 	margin-bottom: 80px;
 	font-family: 'ON-IGothic';
-	font-size: 18px;
+	font-size: 16px;
 }
 .box_btn{
 	width: 93px;

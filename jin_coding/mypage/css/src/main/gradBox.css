@@ -3,6 +3,40 @@
 /* #gradBox{
 	background-color: #f90;
 } */
+
+.grad_deco_01{
+	display: none;
+	position: absolute; top: 4130px; left: 830px;
+	width: 140px;height: 76px;
+	background-image: url(../../../img/source/grad_deco_01.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.grad_deco_02{
+	display: none;
+	position: absolute; top: 4700px; left: 100px;
+	width: 136px; height: 72px;
+	background-image: url(../../../img/source/grad_deco_02.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.grad_deco_03{
+	display: none;
+	position: absolute; top: 4700px; left: 650px;
+	width: 182px; height: 118px;
+	background-image: url(../../../img/source/grad_deco_03.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.grad_deco_04{
+	display: none;
+	position: absolute; top: 5000px; right: 400px;
+	width: 256px; height: 46px;
+	background-image: url(../../../img/source/grad_deco_04.png);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+
 .mid_box_02{
 	position: relative;
 	width: 1398px;
@@ -62,12 +96,17 @@
 	height: 529px;
 	margin-bottom: 80px;
 	font-family: 'ON-IGothic';
-	font-size: 18px;
+	font-size: 16px;
 }
 .box_btn_02{
 	width: 93px;
 	height: 48px;
-	background-color: #f8f;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
 	text-align: center;
+}
+
+.box_btn_02:hover{
+	background-image: url(../../../img/source/more_hover.png);
+	background-repeat: no-repeat;
+	animation: more 0.2s linear;
 }

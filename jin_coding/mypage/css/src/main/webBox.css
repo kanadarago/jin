@@ -12,3 +12,28 @@
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
 	text-align: center;
 }
+
+.web_deco_01{
+	display: none;
+	position: absolute; top: 3100px; right: 324px;
+	width: 290px; height: 92px;
+	background-image: url(../../../img/source/web_deco_01.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.web_deco_02{
+	display: none;
+	position: absolute; top: 3800px; right: 408px;
+	width: 264px; height: 90px;
+	background-image: url(../../../img/source/web_deco_02.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.web_deco_03{
+	display: none;
+	position: absolute; top: 4000px; left: 300px;
+	width: 182px; height: 42px;
+	background-image: url(../../../img/source/web_deco_03.png);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}

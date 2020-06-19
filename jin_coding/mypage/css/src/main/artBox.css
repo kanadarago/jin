@@ -13,11 +13,23 @@
 	margin: auto; margin-bottom: 54px;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
 	text-align: center; text-transform: uppercase;
+	background-image: url(../../../img/source/art_title_bg.png);
+	background-repeat: no-repeat;
+	background-position: 550px 34px;
 }
 .art_pic_box{
+	position: absolute; top: 164px; left: 300px;
+	z-index: 100;
 	width: 1294px;
 	height: 670px;
 	margin: auto;
+}
+.art_pic_line{
+	position: absolute; top: -4px; left: -4px;
+	width: 1310px; height: 690px;
+	background-image: url(../../../img/source/art_pic_line.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 .art_pic_l{
 	float: left;
@@ -28,12 +40,12 @@
 	width: 410px;
 	height: 263px;
 	margin-bottom: 31px;
-	background-color: #90a;
+	background-color: #ffb4b4;
 }
 .art_pic_02{
 	width: 410px;
 	height: 376px;
-	background-color: #3fa;
+	background-color: #ffb4b4;
 }
 .art_pic_m{
 	float: left;
@@ -45,12 +57,12 @@
 	width: 410px;
 	height: 452px;
 	margin-bottom: 29px;
-	background-color: #0ca;
+	background-color: #ffb4b4;
 }
 .art_pic_04{
 	width: 410px;
 	height: 189px;
-	background-color: #00f;
+	background-color: #ffb4b4;
 }
 .art_pic_r{
 	float: left;
@@ -60,5 +72,9 @@
 }
 .art_pic_05{
 	width: 100%; height: 100%;
-	background-color: #3fa;
+	background-color: #ffb4b4;
+}
+#artBox a{
+	display: block;
+	background-color: deepskyblue;
 }
