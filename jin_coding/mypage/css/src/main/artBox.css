@@ -24,13 +24,6 @@
 	height: 670px;
 	margin: auto;
 }
-.art_pic_line{
-	position: absolute; top: -4px; left: -4px;
-	width: 1310px; height: 690px;
-	background-image: url(../../../img/source/art_pic_line.png);
-	background-repeat: no-repeat;
-	background-position: 0 0;
-}
 .art_pic_l{
 	float: left;
 	width: 410px;
@@ -76,5 +69,22 @@
 }
 #artBox a{
 	display: block;
-	background-color: deepskyblue;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.art_pic_01 a{background-image: url(../../../img/1.jpg);}
+.art_pic_02 a{background-image: url(../../../img/2.jpg);}
+.art_pic_03 a{background-image: url(../../../img/3.jpg);}
+.art_pic_04 a{background-image: url(../../../img/4.jpg);}
+.art_pic_05 a{background-image: url(../../../img/5.jpg);}
+
+.art_pic_line{
+	display: inline;
+	position: absolute; top: -4px; left: -4px;
+	width: 1310px; height: 690px;
+	background-image: url(../../../img/source/art_pic_line.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }

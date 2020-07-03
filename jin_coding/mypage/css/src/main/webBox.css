@@ -1,16 +1,16 @@
 /* webBox.css */
 #webBox{
-	margin-bottom: 70px;
+	margin-bottom: 320px;
 }
 #webBox .box_title{
-	width: 176px;
+	width: 100%;
 	height: 43px;
 	margin-bottom: 64px;
 	background-image: url(../../../img/source/web_title_bg.png);
 	background-repeat: no-repeat;
 	background-position: -4px 28px;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
-	text-align: center;
+	text-align: left;
 }
 
 .web_deco_01{

@@ -22,11 +22,11 @@
  win.on('scroll',function(e){
 	 var thisTop = $(this).scrollTop();
 	 
-	 if(thisTop < 1100){
+	 if(thisTop < 1162){
 		slideBox.css({'position':'absolute','top':1160+'px','left':251+'px' });
 		// slideBg.css({'marginLeft': 0+'px'});
-	 }else if(thisTop < 3100){
-		slideBox.css({'position':'fixed','top':60+'px','left':251+'px'});
+	 }else if(thisTop < 3162){
+		slideBox.css({'position':'fixed','top':0+'px','left':251+'px'});
 		// slideBg.stop().animate({'marginLeft': -2289+'px'});
 	 }else{
 		slideBox.css({'position':'absolute','top':3160+'px','left':251+'px' });
@@ -44,9 +44,26 @@ win.on('scroll',function(e){
 		slideBg.css({'marginLeft': 0+'px'});
 	}else if(thisTop<=3095){
 		var marg = n+thisTop-1100;
-		slideBg.css({'marginLeft': -marg+'px'});
+		slideBg.css({'marginLeft': -marg*2+'px'});
 	}else if(thisTop<=5844){
-		slideBg.css({'marginLeft': -1995+'px'});
+		slideBg.css({'marginLeft': -4000+'px'});
+	}
+});
+
+var slideBox02 = $('.slide_box_02');
+var slideBg02 = $('.slide_bg_02');
+
+win.on('scroll',function(e){
+	var thisTop = $(this).scrollTop();
+	ft.text(thisTop);
+	var k=0;
+	if(3800>=thisTop){
+		slideBg02.css({'marginLeft': 0+'px'});
+	}else if(thisTop<=4300){
+		var marg = k+thisTop-3800;
+		slideBg02.css({'marginLeft': -marg/1.4+'px'});
+	}else if(thisTop<=5844){
+		slideBg02.css({'marginLeft': -357.1428+'px'});
 	}
 });
 
@@ -60,7 +77,7 @@ win.on('scroll',function(e){
 	var thisTop = $(this).scrollTop();
 	
 	if(thisTop >= 700){
-		slideA.fadeIn();
+		slideA.slideDown(1000);
 	}else if(thisTop < 700){
 		slideA.fadeOut();
 	}
@@ -70,9 +87,9 @@ win.on('scroll',function(e){
 	var thisTop = $(this).scrollTop();
 	
 	if(thisTop >= 3400){
-		slideA02.fadeIn();
+		slideA02.slideDown(1400);
 	}else if(thisTop < 3400){
-		slideA02.fadeOut();
+		slideA02.slideUp();
 	}
 });
 

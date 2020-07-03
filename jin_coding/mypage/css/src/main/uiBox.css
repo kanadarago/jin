@@ -82,19 +82,19 @@
 	display: none;
 	width: 100%; height: 100%;
 }
-.slide_line{
-	position: absolute; top: -20px; left: -30px;
-	width: 770px; height: 876px;
+/* .slide_line{
+	position: absolute; top: 0; left: -30px;
+	width: 770px; height: 100vh;
 	background-image: url(../../../img/source/box_line.png);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-}
+} */
 .slide_area{
-	width: 721px; height: 100%;
+	width: 721px; height: 100vh;
 	overflow: hidden;
 }
 .slide_bg{
-	width: 3000px; height: 100%;
+	width: 4721px; height: 100%;
 	/* margin-left: -100px; */
 	background-image: linear-gradient(90deg,#F7CAC9,#92A8D1);
 }
@@ -112,14 +112,14 @@
 	padding-top: 31px; box-sizing: border-box;
 }
 #uiBox .box_title{
-	width: 176px;
+	width: 100%;
 	height: 43px;
 	margin-bottom: 64px;
 	background-image: url(../../../img/source/ui_title_bg.png);
 	background-repeat: no-repeat;
 	background-position: -4px 28px;
 	font-family: 'OTEnjoystoriesBA'; font-size: 38px;
-	text-align: center;
+	text-align: left;
 }
 .upper{
 	text-transform: uppercase;

@@ -3,11 +3,11 @@
 	width: 80px; height: 970px;
 	padding-top: 11px; box-sizing: border-box;
 }
-.fixed_text{
+/* .fixed_text{
 	position: fixed; top: 0; right: 0;
 	width: 140px; height: 50px;
 	background-color: #fff;
-}
+} */
 .logo_box{
 	width: 62px;
 	height: 108px;
